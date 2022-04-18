@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bizmap.mapper.MainMapper">
+
+    <select id="getDate" resultType="MainVO">
+        /* MainMapper.getDate */
+        SELECT
+            now() as currentTime
+        FROM dual
+    </select>
+
+    <select id="getUser" resultType="LoginVO">
+        /* MainMapper.getUser */
+        SELECT
+            user_id
+            , user_name
+            , user_pw
+            , user_phone
+        FROM tb_user
+       WHERE user_id = #{id}
+         AND user_pw = #{password}
+    </select>
+
+    <select id="getUserCheck" resultType="LoginVO">
+        /* MainMapper.getUserCheck */
+        SELECT
+            user_id
+        FROM tb_user
+       WHERE user_id = #{userId}
+    </select>
+
+    <insert id="setSignUpProc" >
+        /* MainMapper.setSignUpProc */
+        INSERT INTO tb_user(
+             user_id
+            , user_name
+            , user_pw
+            , user_phone
+            , user_email
+        ) VALUES (
+            #{userId}
+            , #{userName}
+            , #{userPw}
+            , #{userPhone}
+            , #{userEmail}
+        )
+    </insert>
+
+</mapper>
