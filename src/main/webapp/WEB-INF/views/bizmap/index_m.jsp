@@ -36,7 +36,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>NICEbizmap 상권분석서비스</title>
     <!-- Favicon -->
-    <link href="/favicon.png" rel="icon" type="image/png" />
+    <link href="/resources/assets/bizmap/images/favicon.png" rel="icon" type="image/png" />
 
     <!-- css 모음 -->
     <%@ include file="/WEB-INF/views/bizmap/include/head.jsp" %>
@@ -60,7 +60,7 @@
     <div id="nav_box">
         <div>
             <div id="logo_box">
-                <img src="../../../resources/assets/images/logo.svg" alt="나이스비즈맵" height="100%" width="auto">
+                <img src="/resources/assets/bizmap/images/logo.svg" alt="나이스비즈맵" height="100%" width="auto">
             </div>
         </div>
     </div>
@@ -86,28 +86,28 @@
                 <div class="img_grp">
                     <div class="img_grp_wrap">
                         <div class="surf_deco">
-                            <img class="bling1" src="../../../resources/assets/images/s3_back_bling1.svg" alt="데코레이션">
-                            <img class="bling2" src="../../../resources/assets/images/s3_back_bling2.svg" alt="데코레이션">
-                            <img class="card" src="../../../resources/assets/images/s3_back_card.svg" alt="데코레이션">
-                            <img class="chart" src="../../../resources/assets/images/s3_back_chart.svg" alt="데코레이션">
-                            <img class="check" src="../../../resources/assets/images/s3_back_check.svg" alt="데코레이션">
+                            <img class="bling1" src="/resources/assets/bizmap/images/s3_back_bling1.svg" alt="데코레이션">
+                            <img class="bling2" src="/resources/assets/bizmap/images/s3_back_bling2.svg" alt="데코레이션">
+                            <img class="card" src="/resources/assets/bizmap/images/s3_back_card.svg" alt="데코레이션">
+                            <img class="chart" src="/resources/assets/bizmap/images/s3_back_chart.svg" alt="데코레이션">
+                            <img class="check" src="/resources/assets/bizmap/images/s3_back_check.svg" alt="데코레이션">
                         </div>
                         <div class="phone_inner">
                             <div class="phone_inner_wrap">
-                                <img src="../../../resources/assets/images/slider.svg" alt="기본보고서 요약본 예시">
+                                <img src="/resources/assets/bizmap/images/slider.svg" alt="기본보고서 요약본 예시">
                             </div>
                         </div>
                         <div class="phone_box">
                         </div>
                         <!--<div class="phone_shadow"></div>-->
                         <div class="bg_small">
-                            <img src="../../../resources/assets/images/s3_back_circle1.svg" alt="데코레이션">
+                            <img src="/resources/assets/bizmap/images/s3_back_circle1.svg" alt="데코레이션">
                         </div>
                         <div class="bg_small2">
-                            <img src="../../../resources/assets/images/s3_back_circle2.svg" alt="데코레이션">
+                            <img src="/resources/assets/bizmap/images/s3_back_circle2.svg" alt="데코레이션">
                         </div>
                         <div class="bg_img">
-                            <img src="../../../resources/assets/images/s3_back_big.svg" alt="데코레이션">
+                            <img src="/resources/assets/bizmap/images/s3_back_big.svg" alt="데코레이션">
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@
             <div class="right">
                 <div>
                     <div class="logo" title="NICEBIZMAP 상권분석서비스">
-                        <img class="slide-in-bottom" src="../../../resources/assets/images/main/img_f_logo.png" alt="나이스비즈맵 로고">
+                        <img class="slide-in-bottom" src="/resources/assets/images/main/img_f_logo.png" alt="나이스비즈맵 로고">
                     </div>
                 </div>
                 <a href="http://www.webwatch.or.kr/" target="_blank"><img src="/images/renew/mark2.png" width="145px" height="95px" style="margin-top: 12px;" alt="과학기술정보통신부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)" title="국가 공인 인증기관 : 웹와치"></a>

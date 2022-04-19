@@ -7,11 +7,11 @@
 
 <!-- BEGIN: Theme JS-->
 <!-- END: Theme JS-->
-<script src="../../../resources/assets/js/bizmap/jquery-1.4.js"></script>
-<script src="../../../resources/assets/js/bizmap/jquery.min.js"></script>
-<script src="../../../resources/assets/js/bizmap/common.js"></script>
-<script src="../../../resources/assets/js/bizmap/ecomp.js"></script>
-<script src="../../../resources/assets/js/bizmap/main.js"></script>
+<script src="/resources/assets/bizmap/js/jquery-1.4.js"></script>
+<script src="/resources/assets/bizmap/js/jquery.min.js"></script>
+<script src="/resources/assets/bizmap/js/common.js"></script>
+<script src="/resources/assets/bizmap/js/ecomp.js"></script>
+<script src="/resources/assets/bizmap/js/main.js"></script>
 
 <script type="text/javascript">
     // $(window).load(function() {

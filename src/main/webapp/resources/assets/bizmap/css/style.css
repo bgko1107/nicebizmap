@@ -1233,7 +1233,7 @@ h3{
     width:38px;
     height:38px;
     margin-right:12px;
-    background: url(../../images/mail_icon.svg) no-repeat 0px 0px;
+    background: url(../images/mail_icon.svg) no-repeat 0px 0px;
     background-size:contain;
 }
 
@@ -1258,7 +1258,7 @@ h3{
     position: absolute;
     width:450px;
     height:600px;
-    background-image:url(../../images/phone.svg);
+    background-image:url(../images/phone.svg);
     z-index: 4;
 }
 
@@ -1816,7 +1816,7 @@ h3{
 .pop-detail .pop-box .pop-con .tab-con .unit .accor-list > ul > li{}
 .pop-detail .pop-box .pop-con .tab-con .unit .accor-list > ul > li + li{border-top: 1px solid #EFEFEF;}
 .pop-detail .pop-box .pop-con .tab-con .unit .accor-list > ul > li .q{position: relative; padding: 12px 60px 12px 43px; display: block; font-size: 13px;}
-.pop-detail .pop-box .pop-con .tab-con .unit .accor-list > ul > li .q:before{content: ''; width: 11px; height: 7px; background: url(../../images/common/ico_accor_arr.png) no-repeat; position: absolute; right: 24px; top: 50%; margin-top: -3px; transition: transform .3s}
+.pop-detail .pop-box .pop-con .tab-con .unit .accor-list > ul > li .q:before{content: ''; width: 11px; height: 7px; background: url(/resources/assets/images/common/ico_accor_arr.png) no-repeat; position: absolute; right: 24px; top: 50%; margin-top: -3px; transition: transform .3s}
 .pop-detail .pop-box .pop-con .tab-con .unit .accor-list > ul > li.on .q:before{transform: rotate(180deg)}
 .pop-detail .pop-box .pop-con .tab-con .unit .accor-list > ul > li.on .q .txt{color: #0078D0;}
 .pop-detail .pop-box .pop-con .tab-con .unit .accor-list > ul > li .q:after{content: ''}
@@ -1869,7 +1869,7 @@ h3{
 
 .footer .right{float: right;}
 .footer .right .logo{width: 96px;}
-.footer .right .logo > span{display: block; padding-bottom: 59.3%; background: url(../../images/main/img_f_logo.png) no-repeat;}
+.footer .right .logo > span{display: block; padding-bottom: 59.3%; background: url(/resources/assets/images/main/img_f_logo.png) no-repeat;}
 
 
 .modal-backdrop {
@@ -1891,7 +1891,7 @@ h3{
 .dialog.input{width: 210px; text-align: center; border-radius: 6px; border-color: #0078D0; background: #F2F3FC;}
 .dialog.choice{width:858px; z-index:2;}
 .dialog.choice .btn-area{border-top: 1px solid #F5F5F5; padding: 12px 0 15px;}
-.dialog .inner > .btn-close{width: 40px; height: 40px; position: absolute; right: 0; top: 0; background:url(../../images/common/ico_alert_close.png) no-repeat center center;}
+.dialog .inner > .btn-close{width: 40px; height: 40px; position: absolute; right: 0; top: 0; background:url(/resources/assets/images/common/ico_alert_close.png) no-repeat center center;}
 .dialog .tit-area{text-align: center; margin-bottom: 15px;}
 .dialog .tit-area > strong{font-size: 16px;}
 .dialog .msg{color: #262626; font-size: 12px; margin-bottom: 20px;}
@@ -1907,7 +1907,7 @@ h3{
 .dialog .btn-area .btn{height: 27px; font-size: 12px; padding: 0 10px; border:1px solid #616161; color: #616161; font-weight: bold; min-width: 60px; box-sizing: border-box;}
 .dialog .btn-area .btn:hover {border-color: #054ea9; color: #054ea9;}
 .dialog .btn-area .btn.select{font-size: 12px; background:#0078D0; color: #fff; border-color: #0078D0; min-width: 155px;}
-.dialog .btn-area .btn.select::before{content: ''; display: inline-block; vertical-align: middle; margin: -3px 5px 0 0; width: 14px; height: 10px; background: url(../../images/common/ico_btn_select.png);}
+.dialog .btn-area .btn.select::before{content: ''; display: inline-block; vertical-align: middle; margin: -3px 5px 0 0; width: 14px; height: 10px; background: url(/resources/assets/images/common/ico_btn_select.png);}
 .dialog .btn-area .btn.sumit{width: 76px; background: #0078D0; border-color: #0078D0; color: #fff; font-size: 12px;}
 .dialog .btn-area .btn + .btn{margin-left: 7px;}
 .dialog .btn-area .btn.cancel{border:1px solid #CFDAEA; background: #fff; color: #0078D0;}
@@ -1924,7 +1924,7 @@ h3{
 
 .dialog .footer-area{margin: 15px -15px -15px;}
 .dialog .footer-area > button{background: #666; width: 100%; height: 31px; line-height: 31px; padding: 0 15px; color: #fff; text-align: left; font-weight: bold; position: relative;}
-.dialog .footer-area > button:after{content: '';width: 16px; height: 13px; background: url(../../images/common/ico_heart.png) no-repeat 0 0; position: absolute; right: 15px; top: 50%; transform: translateY(-50%)}
+.dialog .footer-area > button:after{content: '';width: 16px; height: 13px; background: url(/resources/assets/images/common/ico_heart.png) no-repeat 0 0; position: absolute; right: 15px; top: 50%; transform: translateY(-50%)}
 .dialog .footer-area > button.on:after{background-position: 0 100%;}
 
 

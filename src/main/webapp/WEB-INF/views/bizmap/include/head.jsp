@@ -14,9 +14,9 @@
     <!-- END: Theme CSS-->
 
     <!-- BEGIN: Page CSS-->
-    <link rel="stylesheet" type="text/css" href="../../../resources/assets/css/bizmap/reset.css">
-    <link rel="stylesheet" type="text/css" href="../../../resources/assets/css/bizmap/style.css">
-    <link rel="stylesheet" type="text/css" href="../../../resources/assets/css/bizmap/style_m.css">
+    <link rel="stylesheet" type="text/css" href="/resources/assets/bizmap/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/resources/assets/bizmap/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/resources/assets/bizmap/css/style_m.css">
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
